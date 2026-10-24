@@ -197,29 +197,7 @@ Potential next steps include:
 7. Integrating methylation findings with gene-expression data where suitable data are available.
 8. Validating candidate CpG sites and genes in independent datasets.
 
-## Repository Structure
 
-A suggested repository structure is:
-
-```text
-rheumatoid-arthritis-dna-methylation-analysis/
-├── README.md
-├── data/
-│   └── README.md
-├── scripts/
-│   ├── champ_analysis.R
-│   ├── minfi_analysis.R
-│   └── sesame_analysis.R
-├── results/
-│   ├── qc/
-│   ├── differential_methylation/
-│   └── figures/
-├── report/
-│   └── DNA_Methylation_Report1.pdf
-└── .gitignore
-```
-
-This is a suggested organization; include only files and scripts that actually exist in the repository.
 
 ## Software Requirements
 
